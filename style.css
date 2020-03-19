@@ -1,8 +1,41 @@
-/* <link rel="icon" href="goodboxing.css"> */
-body
-  <a href="http://cafe.naver.com/goodboxing1">네이버</a>
-  <a href="https://www.instagram.com/blat18">인스타</a>
-  <a href="https://facebook.com/977827499031780">페이스북</a>
-  <a href="https://www.youtube.com/user/MrBlat18">유튜브</a>
-  <a href="http://blog.naver.com/blat18">블러그</a>
+/* <link rel="stylesheet" href="style.css"> */
+body{
+  margin:0;
+}
+a {
+  color:black;
+}
+h1 {
+  font-size:45px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px;
+}
+ol{
+  border-right:1px solid gray;
+  width:100px;
+  margin:0;
+  padding:20px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid ol{
+  padding-left:33px;
+}
+#grid #article{
+  padding-left:25px;
+}
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right:none;
+  }
+  h1 {
+    border-bottom:none;
+  }
 }
