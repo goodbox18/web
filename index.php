@@ -82,6 +82,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- <p> -->
       <!-- <iframe </iframe> -->
       <!-- </p> -->
-
+<?php
+include "tawk.php";
+include "cmt/disqus.php";
+?>
   </<body>
 </html>
