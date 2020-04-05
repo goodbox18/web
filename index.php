@@ -24,14 +24,11 @@ include "mon/gtag.php";
       text-align: center;
     }
     </style> -->
-    <a href="http://cafe.naver.com/goodboxing1">네이버</a>
-    <a href="https://www.instagram.com/blat18">인스타</a>
-    <a href="https://facebook.com/977827499031780">페이스북</a>
-    <a href="https://www.youtube.com/user/MrBlat18">유튜브</a>
-    <a href="http://blog.naver.com/blat18">블러그</a>
-    <link rel="stylesheet" href="style.css">
+    <?php
+    include "link/gblink.php";
+     ?>
+    <link rel="stylesheet" href="dsn/style.css">
   </head>
-
   <body>
     <?php
     include "mon/bodytag.php";
@@ -52,7 +49,7 @@ include "mon/gtag.php";
 
     <h2><a href="index.html">굿복싱</a></h2>
 
-  <img src="Hibox.jpg" width="50%">
+  <img src="img/Hibox.jpg" width="50%">
 
     <p style="margin-top:28px;">
     [GOOD BOXING] 굿복싱<br>
