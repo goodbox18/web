@@ -20,5 +20,5 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-<!-- 디스커스 몸통닫기전에 붙여라하네 -->
+<!-- </<body> 붙여라하네 -->
 <script id="dsq-count-scr" src="//box-8.disqus.com/count.js" async></script>

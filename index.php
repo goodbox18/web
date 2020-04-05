@@ -1,26 +1,10 @@
 <!doctype html>
 <html>
   <head>
-    <!-- 태그관리자 -->
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-K4MRQZ7');</script>
-<!-- End Google Tag Manager -->
-
-    <!-- 구글추적코드 시작 -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160870982-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-160870982-1');
-</script>
-<!-- 끝 -->
+<?php
+include "mon/headtag.php";
+include "mon/gtag.php";
+ ?>
     <title>GOOD BOXING</title>
     <h1><a style="color:red">GOOD BOXING</h1>
     <meta charset="utf-8">
@@ -49,6 +33,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </head>
 
   <body>
+    <?php
+    include "mon/bodytag.php";
+     ?>
     <!-- 다크모드 -->
     <input id="밤_낮" type="button" value="밤" onclick="
     if(document.querySelector('#밤_낮').value === '밤'){
@@ -61,11 +48,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       document.querySelector('#밤_낮').value = '밤';
     }
     ">
-    <!-- 태그관리자 -->
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4MRQZ7"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 
     <h2><a href="index.html">굿복싱</a></h2>
 
@@ -83,8 +66,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- <iframe </iframe> -->
       <!-- </p> -->
 <?php
-include "tawk.php";
+include "chat/tawk.php";
 include "cmt/disqus.php";
-?>
-  </<body>
+ ?>
+  </body>
 </html>
