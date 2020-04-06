@@ -5,9 +5,9 @@
 include "mon/headtag.php";
 include "mon/gtag.php";
  ?>
+ <meta charset="utf-8">
     <title>GOOD BOXING</title>
-    <h1><a style="color:red">GOOD BOXING</h1>
-    <meta charset="utf-8">
+    <h1><a style="color:red"; href="index.php">GOOD BOXING</h1>
     <?php
     include "link/gblink.php";
      ?>
@@ -18,9 +18,8 @@ include "mon/gtag.php";
     include "mon/bodytag.php";
     include "dsn/dark.php";
      ?>
-    <h2><a href="index.html">굿복싱</a></h2>
 
-  <img src="img/Hibox.jpg" width="50%">
+  <img src="img/goodbox.jpg" width="80%">
 
     <p style="margin-top:28px;">
     [GOOD BOXING] 굿복싱<br>
@@ -35,6 +34,7 @@ include "mon/gtag.php";
       <!-- </p> -->
 <?php
 include "chat/tawk.php";
+include "chat/addthis.php";
 include "cmt/disqus.php";
  ?>
   </body>
